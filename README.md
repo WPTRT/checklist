@@ -14,7 +14,7 @@ A WPTRT project with a basic checklist for authors and reviewers
 
 [  ] All scripts and styles are enqueued.
 
-[  ] Core versions of scripts are used (such as jquery and masonry).
+[  ] The correct version of scripts is used: *If* the theme uses JavaScript that is already included in WordPress, then the version that is included with WordPress must be used instead of a custom version. https://developer.wordpress.org/reference/functions/wp_enqueue_script/#default-scripts-included-and-registered-by-wordpress
 
 [  ] All scripts and resources are included, no CDN or similar remote files are used.
     (The only exception is Google Fonts)
