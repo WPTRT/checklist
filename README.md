@@ -1,6 +1,13 @@
 # checklist
 A WPTRT project with a basic checklist for authors and reviewers
 
+This checklist needs to be completed before the review can start.
+
+How to use the checklist:
+Check each item on the list.
+Mark the item with a X once complete.
+Example: [ X ] A copyright statement for the theme is included in: readme.txt.
+
 == Checklist
 * License & Copyright
 
@@ -14,7 +21,8 @@ A WPTRT project with a basic checklist for authors and reviewers
 
 [  ] All scripts and styles are enqueued.
 
-[  ] The correct version of scripts is used: *If* the theme uses JavaScript that is already included in WordPress, then the version that is included with WordPress must be used instead of a custom version. https://developer.wordpress.org/reference/functions/wp_enqueue_script/#default-scripts-included-and-registered-by-wordpress
+[  ] If jQuery, images loaded or Masonry is used, the core version of the script must be used instead of a custom version.
+https://developer.wordpress.org/reference/functions/wp_enqueue_script/#default-scripts-included-and-registered-by-wordpress
 
 [  ] All scripts and resources are included, no CDN or similar remote files are used.
     (The only exception is Google Fonts)
@@ -35,7 +43,7 @@ A WPTRT project with a basic checklist for authors and reviewers
 
 * Plugins
 
-[  ] No plugins are required.
+[  ] No plugins are required (Plugins may only be recommended, not required).
 
 * Translations
 
@@ -55,3 +63,6 @@ A WPTRT project with a basic checklist for authors and reviewers
 
 [  ] The readme.txt file has been validated.
 (https://wordpress.org/plugins/developers/readme-validator/)
+
+* Accessibility
+[  ] A Skip Link is included.
