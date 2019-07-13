@@ -4,9 +4,14 @@ A WPTRT project with a basic checklist for authors and reviewers
 This checklist needs to be completed before the review can start.
 
 How to use the checklist:
+
 Check each item on the list.
+
 Mark the item with a X once complete.
+
 Example: [ X ] A copyright statement for the theme is included in: readme.txt.
+
+
 
 == Checklist
 * License & Copyright
@@ -65,4 +70,5 @@ https://developer.wordpress.org/reference/functions/wp_enqueue_script/#default-s
 (https://wordpress.org/plugins/developers/readme-validator/)
 
 * Accessibility
+
 [  ] A Skip Link is included.
