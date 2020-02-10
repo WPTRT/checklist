@@ -28,6 +28,9 @@ Example: [ X ] A copyright statement for the theme is included in: readme.txt.
 [  ] All options are escaped before output.
 [  ] Translated texts inside HTML attributes are escaped.
 
+* Prefix
+[  ] A unique prefix or namespace is used.
+
 * PHP and JS errors
 [  ] There are no PHP notices, warnings and errors on PHP version 5.6 -current.
 [  ] There are no JS warnings or errors.
