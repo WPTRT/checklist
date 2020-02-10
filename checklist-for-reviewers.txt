@@ -1,0 +1,50 @@
+How to use the checklist:
+If there are issues, enter Error, Required or similar in the checkbox.
+If the theme passes, enter pass or similar in the checkbox.
+If something has not been checked, enter "not checked" or similar in the checkbox.
+
+== Checklist
+* License & Copyright
+[  ] A copyright statement for the theme must be included.
+[  ] License and copyright information for all images, icons, fonts, scripts and styles must be included.
+
+* Scripts and styles
+[  ] All minified files must be accompanied by non minified files.
+[  ] All scripts and styles must be enqueued.
+
+[  ] If jQuery, images loaded or Masonry is used, the core version of the script must be used instead of a custom version. https://developer.wordpress.org/reference/functions/wp_enqueue_script/#default-scripts-included-and-registered-by-wordpress
+
+[  ] All scripts and resources must be included, no CDN or similar remote files are used.
+    (The only exception is Google Fonts)
+
+* Basic security
+[  ] All customizer options, custom widgets and custom meta options must be sanitized before saving.
+[  ] All options must be escaped before output.
+[  ] Translated texts inside HTML attributes are escaped.
+
+* Prefix
+[  ] A unique prefix or namespace must be used.
+
+* PHP and JS errors
+[  ] There must be no PHP notices, warnings and errors on PHP version 5.6 -current.
+[  ] There must be no JS warnings or errors.
+
+* Plugins
+[  ] No plugins can be required.
+
+* Translations
+[  ] All the text, including placeholders and default values, must be translation ready.
+
+* Screenshot
+[  ] The screenshot must be valid.
+
+* Readme file
+[  ] The readme.txt file must be valid.
+(https://wordpress.org/plugins/developers/readme-validator/)
+
+* Accessibility
+[  ] A Skip Link must be included.
+[  ] Keybordnavigation for menus must work
+[  ] Keybordnavigation for responsive menus must work
+[  ] Keybordnavigation for links must work
+[  ] Keybordnavigation for forms must work
